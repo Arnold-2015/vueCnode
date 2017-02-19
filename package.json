@@ -1,0 +1,40 @@
+{
+  "name": "my-cnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --display-modules --display-chunks --config build/webpack.prod.config.js",
+    "dev": "node build/dev-server.js"
+  },
+  "keywords": [
+    "vue",
+    "webpack",
+    "cnodejs"
+  ],
+  "author": "Arnold keyx",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^5.8.34",
+    "css-loader": "^0.23.0",
+    "express": "^4.14.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.13.1",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.2.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-hot-middleware": "^2.17.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.28"
+  }
+}
