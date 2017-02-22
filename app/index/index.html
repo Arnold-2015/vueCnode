@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>首页</title>
 </head>
-<body>
-	<Arnold></Arnold>
+<body >
+	<div v-on:click="getData">{{msg}}</div>
+	<Loading v-show="showLoading"></Loading>
 </body>
 </html>

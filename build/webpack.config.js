@@ -29,6 +29,14 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel?presets=es2015',
                 exclude: /node_modules/
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/,
+                loader: 'url',
+                query: {
+                    limit: 10000,
+                    name: '[name].[ext]?[hash:7]'
+                }
             }
         ]
     },
