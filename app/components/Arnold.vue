@@ -25,6 +25,6 @@
 
 <style>
     html{
-        background: #999;
+        background: #d7d7d7;
     }
 </style>
