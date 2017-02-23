@@ -6,17 +6,18 @@
     export default {
         data () {
             return {
-                msg: 'Hello vue!'
+                msg: 'Hello vue!',
+                url:'https://cnodejs.org/api/v1/topic/5433d5e4e737cbe96dcef312'
             }
         },
         methods:{
             getData:function(){
-        
-                         this.$http.get('https://cnodejs.org/api/v1/topic/5433d5e4e737cbe96dcef312').then((response)=>{
+                          // console.log(this)
+                         this.$http.get(this.url).then((response)=>{
                                               console.log(response.data);
-                                              this.$set('msg', 'Hello '+response.data.data.author.loginname);
+                                              this.msg="hello "+response.data.data.author.loginname;
                                                }, (response)=>{
-                                                        alert("error")
+                                                      console.log(response)
                                      });
             }
         }
@@ -25,6 +26,6 @@
 
 <style>
     html{
-        background: #d7d7d7;
+        background: #fff;
     }
 </style>
