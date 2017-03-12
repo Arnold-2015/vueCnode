@@ -1,5 +1,5 @@
 <template>
-    <div v-on:click="getData">{{msg}}</div>
+    <div class="shit" v-on:click="getData">{{msg}}</div>
 </template>
 
 <script>
@@ -24,8 +24,9 @@
     }
 </script>
 
-<style>
-    html{
-        background: #fff;
-    }
+<style lang="sass">
+    .shit
+    background: #fff
+      
+    
 </style>
