@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img src="../assets/loading.gif" height="300" width="400">
+    <img src="../assets/loading.gif" >
     
     <!-- <router-view></router-view> -->
     <Arnold></Arnold>
+    <Alltopic></Alltopic>
   </div>
 </template>
 
 <script>
 import Arnold from '../components/Arnold.vue'
+import Alltopic from '../components/Alltopic.vue'
 export default {
   name: 'app',
   components: {
-    Arnold
+    Arnold,Alltopic
   }
 }
 </script>
