@@ -9,7 +9,7 @@
         mounted() {
             setTimeout(() => {
                 this.$router.push({
-                    name: 'cnodevue'
+                    name: 'arnold'
                 });
             }, 2000);
         }
