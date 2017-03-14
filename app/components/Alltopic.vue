@@ -1,5 +1,5 @@
 <template>
-    <div v-on:click="getLoginname">{{msg}}</div>
+   
 </template>
 
 <script>
@@ -12,7 +12,6 @@
         },
         methods:{
             getLoginname:function(){
-                          // console.log(this)
                          this.$http.get(this.url).then((response)=>{
                                               console.log(response.data);
                                               this.msg="hello "+response.data.data.author.loginname;

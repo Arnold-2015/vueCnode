@@ -1,9 +1,6 @@
 <template>
-<<<<<<< HEAD
     <div v-on:click="getLoginname">{{msg}}</div>
-=======
-    <div class="shit" v-on:click="getData">{{msg}}</div>
->>>>>>> ef040b699279b0cdf8d5862aa4953198072e52dd
+
 </template>
 
 <script>
@@ -28,9 +25,10 @@
     }
 </script>
 
-<style lang="sass">
-    .shit
-    background: #fff
+<style>
+    html,body{
+      background: #fff
+    }
       
     
 </style>
