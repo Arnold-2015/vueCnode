@@ -9,11 +9,11 @@ const router = [{
     name: 'home',
     component: Home
 }, {
-    path: '/arnold',
-    name: 'arnold',
+    path: '/list',
+    name: 'list',
     component(resolve) {
-        require.ensure(['../components/Arnold.vue'], () => {
-            resolve(require('../components/Arnold.vue'));
+        require.ensure(['../view/list.vue'], () => {
+            resolve(require('../view/list.vue'));
         });
     }
 },{

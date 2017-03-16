@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="index" src="../assets/loading.gif">
+        <img class="index" src="../assets/index.png" >
     </div>
 </template>
 <script>
@@ -9,7 +9,7 @@
         mounted() {
             setTimeout(() => {
                 this.$router.push({
-                    name: 'arnold'
+                    name: 'list'
                 });
             }, 2000);
         }
@@ -19,6 +19,6 @@
     .index {
         width: 100%;
         background-color: #fff;
-        margin-top:30px;
+        margin-top:30%;
     }
 </style>
