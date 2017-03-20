@@ -1,11 +1,9 @@
 <template>
-    <section>
-      <ul class="lists">
-        <li v-for="item in topics">
-          {{item.title}}
-        </li>
-      </ul>
-    </section>
+    <div class="hd-wrap">
+        <header class="hd">
+            
+        </header>
+    </div>
 
 </template>
 
@@ -13,27 +11,29 @@
     export default {
         data () {
             return {
-                topics: [],
-                url:'https://cnodejs.org/api/v1/topics?tab=good'
+                
             }
         },
         methods:{
            
         },
         mounted() {
-            this.$http.get(this.url).then((res)=>{
-                                              this.topics=res.data.data;
-                                               console.log(this.topics); 
-                                             
-                                     });
+            
         }
     }
 </script>
 
 <style>
-    html,body{
-      background: #fff
+    .hd{
+      width: 100%;
+      height: 40px;
+      display: block;
+      position: fixed;
+      background: #fff;
+      border-bottom: 2px solid #d7d7d7;
+      top: 0;
+      left: 0;
+      z-index: 10;
     }
-      
-    
+  
 </style>

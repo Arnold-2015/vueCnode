@@ -1,5 +1,8 @@
 <template>
-    <img class="loading" src="../assets/loading.gif">
+    <div>
+    	<div class="loading"></div>
+    </div>
+    
 </template>
 
 <script> 
@@ -11,8 +14,11 @@
       background: #fff
     }
     .loading{
+    	
     	width: 30%;
     	margin:50% 35%;
+    	background: url('../assets/loading.gif');
+    	background-size: 50px 50px;
     }
    
 </style>

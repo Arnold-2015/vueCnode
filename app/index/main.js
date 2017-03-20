@@ -1,8 +1,9 @@
 import Vue from 'Vue'
-import Loading from '../components/loading.vue'
+import loading from '../components/loading.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import routes from '../routers/router';
+import routes from '../routers/router'
+
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
@@ -26,14 +27,14 @@ var app = new Vue({
 		showLoading: false
 	},
 	components: {
-		Loading
+		loading
 	},
 	router
 });
 Vue.http.interceptors.push((request, next) => {
 	app.showLoading= true;
 	next((response) => {
-		app.showLoading  = false;
+		app.showLoading  = true;
 		return response
 	});
 });

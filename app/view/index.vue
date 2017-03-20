@@ -16,6 +16,7 @@
     };
 </script>
 <style>
+ @import '../assets/reset.css';
     .index {
         width: 100%;
         background-color: #fff;
