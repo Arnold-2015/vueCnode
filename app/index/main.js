@@ -3,7 +3,7 @@ import loading from '../components/loading.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import routes from '../routers/router'
-
+require('./reset.scss')
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
@@ -12,15 +12,6 @@ const router = new VueRouter({
     mode: 'history',
     routes
 });
-// new Vue({
-// 	data: {
-// 		showLoading: false
-// 	},
-// 	components:{
-// 		Loading
-// 	},
-//     router
-// }).$mount('#app');
 var app = new Vue({
 	el: '#app',
 	data: {
@@ -34,7 +25,7 @@ var app = new Vue({
 Vue.http.interceptors.push((request, next) => {
 	app.showLoading= true;
 	next((response) => {
-		app.showLoading  = true;
+		app.showLoading  = false;
 		return response
 	});
 });

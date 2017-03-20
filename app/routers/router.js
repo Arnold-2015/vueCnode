@@ -2,7 +2,7 @@
 const Home = resolve => {
     require.ensure(['../view/index.vue'], () => {
         resolve(require('../view/index.vue'));
-    });
+    },'home');
 };
 const router = [{
     path: '/',
@@ -14,7 +14,7 @@ const router = [{
     component(resolve) {
         require.ensure(['../view/list.vue'], () => {
             resolve(require('../view/list.vue'));
-        });
+        },'list');
     }
 },{
     path: '/cnodevue',

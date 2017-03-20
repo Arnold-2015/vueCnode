@@ -15,8 +15,7 @@
         }
     };
 </script>
-<style>
- @import '../assets/reset.css';
+<style lang="sass">
     .index {
         width: 100%;
         background-color: #fff;

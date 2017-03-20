@@ -8,7 +8,7 @@ body,div,p,h1,h2,h3,img,button，ul{
 	margin: 0;
 	padding: 0;
 	border: none;
-	font-family: "微软雅黑";
+	font-family:"Microsoft Yahei";
 	color: #000;
 	display: block;
 }
@@ -34,4 +34,6 @@ input{
 	-webkit-appearance:none;
     -webkit-tap-highlight-color:rgba(255,0,0,0);
     }
-a,button,input,textarea{-webkit-tap-highlight-color: rgba(0,0,0,0;)}
+a,button,input,textarea{
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
