@@ -1,19 +1,17 @@
-#基于vue.js重写Cnodejs.org社区的webapp [线上访问地址](http://shinygang.coding.me/)
+#基于vue.js重写Cnodejs.org社区的webapp [线上访问地址](http://www.wedog)
 
-## 注意：当前项目代码已经升级到2.0，采用vue-cli构建的2.0版本。1.x代码请看1.x分支。
 
-## 当前版本采用vue-cli搭建的版本。 非vue-cli的版本请看分支：not-vue-cli
+## 当前版本采用vue-cli搭建的版本。 
 
 -------
-如果你觉得该项目对你有帮助，就打赏作者一杯咖啡吧。
-![pic](https://segmentfault.com/img/bVqVEt)
+
 
 ###安装
 
 项目地址：（`git clone`）
 
 ```shell
-git clone https://github.com/shinygang/Vue-cnodejs.git
+git clone https://github.com/Arnold-2015/webpack-vue.git
 ```
 
 通过`npm`安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/))
