@@ -1,4 +1,4 @@
-#基于vue.js重写Cnodejs.org社区的webapp [线上访问地址](http://www.wedog)
+#基于vue.js重写Cnodejs.org社区的webapp [线上访问地址](http://www.wedog.cn)
 
 
 ## 当前版本采用vue-cli搭建的版本。 
