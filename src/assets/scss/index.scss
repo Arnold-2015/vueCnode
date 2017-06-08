@@ -7,6 +7,7 @@
     background-color:#fff;
     transition: all .3s ease;
     overflow-x:hidden;
+    margin-top:5px;
 }
 
 .show-menu {
@@ -30,7 +31,8 @@
     background-color: $white;
     li {
         padding: 10px $padding;
-        border-bottom: $border;
+        border: 1px solid #d7d7d7;
+        border-radius:8px;
     }
     h3 {
         @extend .title;
@@ -42,19 +44,19 @@
             color: $white;
         }
         &.top:before {
-            background: #E74C3C;
+            background: #C49F59;
         }
         &.ask:before {
-            background: #3498DB;
+            background: #343434;
         }
         &.good:before {
-            background: #E67E22;
+            background: #C49fff;
         }
         &.job:before {
-            background: #9B59B6;
+            background: #9b9b9b;
         }
         &.share:before {
-            background: #1ABC9C;
+            background: #1a1a1a;
         }
     }
     .content {
@@ -70,7 +72,7 @@
         flex: 1;
     }
     p {
-        padding: 3px 0;
+        padding: 3px 20px;
         display: flex;
         color: $text;
         font-size: $font-info;
@@ -84,7 +86,7 @@
            flex: 1;
         }
         b {
-            color: #42b983;
+            color: #000;
         }
     }
 }

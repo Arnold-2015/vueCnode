@@ -81,7 +81,7 @@
 .userinfo {
     margin-top:$gap*9;
     width: 100%;
-    background-color: $colore7;
+    background-color: #999;
     text-align: center;
     height: 180px;
     .u-img {
@@ -95,7 +95,7 @@
         color: #000;
     }
     .u-bottom {
-        background-color: $colore7;
+        background-color: #d7d7d7;
         width: 100%;
         margin-top: 20px;
         .u-time {
@@ -108,7 +108,7 @@
             float: left;
             text-align: right;
             padding-right: $gap*2;
-            color: $color80;
+            color: #000;
         }
     }
 }

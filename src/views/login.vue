@@ -77,11 +77,11 @@
             .txt {
                 padding: 12px 0;
                 border: none;
-                border-bottom: 1px solid #4fc08d;
+                border-bottom: 1px solid #000;
                 background-color: transparent;
                 width: 100%;
                 font-size: 14px;
-                color: #313131;
+                color: #333;
             }
             .button {
                 display: inline-block;
@@ -91,9 +91,9 @@
                 border-radius: 3px;
                 color: #fff;
                 font-size: 16px;
-                background-color: #4fc08d;
+                background-color: #000;
                 border: none;
-                border-bottom: 2px solid #3aa373;
+                border-bottom: 2px solid #000;
                 text-align: center;
                 vertical-align: middle;
             }

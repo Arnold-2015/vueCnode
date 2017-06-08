@@ -10,13 +10,13 @@
             <dt>源码地址</dt>
             
             <dd>
-                <a href="https://github.com/shinygang/Vue-cnodejs">
-                    https://github.com/shinygang/Vue-cnodejs</a>
+                <a href="https://github.com/arnold-2015/webpack-vue">
+                    https://github.com/arnold-2015/webpack-vue</a>
             </dd>
             
             <dt>意见反馈</dt>
             <dd>
-                <a href="https://github.com/shinygang/Vue-cnodejs/issues">
+                <a href="https://github.com/arnold-2015/webpack-vue/issues">
                     发表意见或者提需求</a>
             </dd>
             

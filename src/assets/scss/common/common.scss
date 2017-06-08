@@ -1,14 +1,14 @@
-$color31:#313131;
-$colorf0:#f0f0f0;
+$color31:#333;
+$colorf0:#fff;
 $colorfff:#fff;
-$colore7:#e7e7e7;
-$colorfa:#fafafa;
-$color62:#626262;
-$colord4:#d4d4d4;
-$colora0:#a0a0a0;
-$red:#ff5a5f;
-$yellow:#feb501;
-$color80:#80bd01;
+$colore7:#eee;
+$colorfa:#aaa;
+$color62:#666;
+$colord4:#ddd;
+$colora0:#000;
+$red:#fff;
+$yellow:#fefefe;
+$color80:#808080;
 $gap:5px;
 
 body {
@@ -18,7 +18,7 @@ body {
     color: #313131;
     overflow-x: hidden;
     line-height: 1;
-    background: url('../images/loading.gif') no-repeat center 250px;
+    background: url('../images/loading.gif') no-repeat center center;
 }
 
 .mt5 {
@@ -30,7 +30,7 @@ body {
 }
 
 .color80 {
-    color: #42b983;
+    color: #808080;
 }
 
 .clear {
@@ -182,10 +182,10 @@ body {
 
 /* 颜色 */
 
-$white: #ffffff;
-$light: #d5dbdb;
-$title: #2c3e50;
-$text: #34495e;
+$white: #fff;
+$light: #ddd;
+$title: #222;
+$text: #333;
 
 /* 基础布局 */
 
@@ -208,7 +208,7 @@ $font-tag: 10px;
 .title {
     color: $title;
     font-size: $font-title;
-    line-height: 1.5;
+    line-height: 2;
     @extend .text-overflow;
 }
 
@@ -224,11 +224,11 @@ $font-tag: 10px;
 
 .user-avatar {
     display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    // border-radius: 50%;
     margin-right: 10px;
-    border: 1px solid #F3F3F3;
+    border: 2px solid #000;
 }
 
 .week-alert {

@@ -35,7 +35,7 @@
             padding: 58px 0 10px 0;
             .wx_loading_icon {
                 position: absolute;
-                top: 15px;
+                top: -115px;
                 left: 50%;
                 margin-left: -16px;
                 width: 24px;

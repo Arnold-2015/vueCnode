@@ -104,7 +104,7 @@
             border-bottom: solid 1px #d4d4d4;
             .add-btn {
                 color: #fff;
-                background-color: #80bd01;
+                background-color: #000;
                 padding: 5px 15px;
                 border-radius: 5px;
             }

@@ -37,6 +37,6 @@
         bottom: 80px;
         font-size: 50px;
         z-index: 9999;
-        color: #42b983;
+        color: #000;
     }
 </style>
